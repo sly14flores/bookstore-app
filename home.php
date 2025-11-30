@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookStore - Online Bookstore Marketplace</title>
+    <title>BookStore - Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
@@ -188,7 +188,7 @@
                         <div class="d-flex justify-content-between mb-3">
                             <strong>Total: $<span id="cartTotal">0.00</span></strong>
                         </div>
-                        <button type="button" class="btn btn-primary w-100" onclick="checkout()" id="checkoutBtn" disabled>
+                        <button type="button" class="btn btn-primary w-100" onclick="checkout()" id="checkoutBtn">
                             Proceed to Checkout
                         </button>
                     </div>
